@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-image: url('anime.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    margin-left: 20%;
+    width: fit-content;
+    text-transform:uppercase;
+    font-size:60px;
+    color: rgb(255, 108, 9);
+    background-color: rgb(248, 248, 248,0.1);
+    font-family:'Verdana';
+    padding:30px;
+    cursor: default;
+  }
+
+h2{
+    text-transform:uppercase;
+    font-size:30px;
+    margin-left: 30%;
+    width: fit-content;
+    color: rgb(255, 0, 191);
+    background-color: rgb(248, 248, 248,0.2);
+    font-family:'Verdana';
+    cursor: default;
+}
+
+.k{
+    all: unset;
+    line-height: 2em;
+    color: rgb(0, 0, 255);
+    border-radius: 5%;
+    border-width: 1px;
+    font-size: 20px;
+    font-family: 'Verdana';
+    font-weight: bold;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(248, 248, 248,0.7);
+    opacity: 0.9;
+}
+.k::placeholder{
+    color: rgb(104, 104, 196);
+}
+.l{
+    margin-top: 10px;
+}
+input[type = submit] {
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+    opacity: 0.5;
+ }
+.l:hover{
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 12px 22px;
+    margin: 20px 20px;
+    cursor: pointer;
+    opacity: 1;
+}

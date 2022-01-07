@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=T, initial-scale=1.0">
+    <title>Anime Recommender</title>
+</head>
+<body>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <div class="form1">
+        <h1>Anime Recommender <br> System</h1>
+        <form action="{% url 'result' %}">
+            {% csrf_token %}
+            <h2>Enter an Anime that you liked</h2> 
+            <div>
+            <input class='k' size=25 placeholder="Enter Anime Name" type="text" required name='Anime'><br>
+            <input class='l' type='submit' name="" value="submit">
+            </div>
+        </form>
+    </div> 
+</body>
+</html>

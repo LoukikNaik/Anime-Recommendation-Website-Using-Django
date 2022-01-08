@@ -52,9 +52,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'anime_recommender.urls'
 
-STATIC_ROOT=[
-    os.path.join(BASE_DIR, 'static'),
-]
+STATIC_ROOT=os.path.join(BASE_DIR, 'static')
+
 
 TEMPLATES = [
     {

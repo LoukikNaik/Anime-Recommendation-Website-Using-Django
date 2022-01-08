@@ -1,1 +1,1 @@
-web: gunicorn Anime-Recommendation-Website-Using-Django.wsgi --log-file -
+web: python manage.py runserver

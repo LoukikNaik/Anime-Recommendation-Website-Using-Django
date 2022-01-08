@@ -1,1 +1,1 @@
-web: gunicorn Anime_Recommendation_Website-Using-Django.wsgi --log-file -
+web: gunicorn mysite.wsgi --log-file -

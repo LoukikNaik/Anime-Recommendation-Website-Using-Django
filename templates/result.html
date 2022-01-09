@@ -12,10 +12,10 @@
 <body>
     {% load static %}
     <link rel="stylesheet" href="{% static 'result.css' %}">
-    You might also like:<br> 
+    <h1> You might also like:</h1> 
     {% if ans %}
     {% for day in ans %}
-    <h1>{{ day }}</h1>
+    <h2>{{day}}</h2>
     {% endfor %}
     {% else %}
     <script>

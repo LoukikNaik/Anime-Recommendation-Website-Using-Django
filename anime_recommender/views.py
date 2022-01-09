@@ -29,9 +29,9 @@ def result(request):
     user_likes=request.GET['Anime']
     str2=anime_data.split("\n")
     k=get_index_from_title(user_likes)
-    str3=str2[k][1:-1].split(", ")
+    str3=str2[k][1:-1].split("', ")
     list1=[]
     for i in str3:
-        s=i[1:-1]
+        s=i[1:]
         list1.append(s)
     return render(request,'result.html',{'ans':list1})

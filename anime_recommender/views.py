@@ -31,7 +31,10 @@ def result(request):
     k=get_index_from_title(user_likes)
     str3=str2[k][1:-1].split("', ")
     list1=[]
-    for i in str3:
-        s=i[1:]
+    for i in range(len(str3)):
+        if i != len(str3)-1:
+            s=str3[i][1:]
+        else:
+            s=str3[i][1:-1]
         list1.append(s)
     return render(request,'result.html',{'ans':list1})

@@ -36,5 +36,6 @@ def result(request):
             s=str3[i][1:]
         else:
             s=str3[i][1:-1]
-        list1.append(s)
+        if len(s)>0:
+            list1.append(s)
     return render(request,'result.html',{'ans':list1})

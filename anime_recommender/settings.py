@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!6)9)qh&3gm2)c4@d67q9vlx_#)#ge6vr3boizt_dzbhi2m0eu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','animerecommendersite.herokuapp.com','0.0.0.0']
+ALLOWED_HOSTS = ['127.0.0.1','animerecommendersite.herokuapp.com','0.0.0.0','animerecommendersite.onrender.com']
 
 # Application definition
 
